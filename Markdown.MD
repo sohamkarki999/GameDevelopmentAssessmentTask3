@@ -71,6 +71,7 @@ High scores will be stored locally on the user’s device and will be shown. The
 #### Scoring and Feedback
 
 **Scoring**: A point is added every time the character successfully passes through the pipes. The current score will be displayed at the top of the screen.
+
 **Feedback**: When the player hits a pipe or the ground, the game provides immediate feedback with a "game over" screen. The player can then restart the game with their score being saved if it is the highest they have scored.
 
 #### Level Progression or Simulation Stages
@@ -83,13 +84,14 @@ This section is not needed for my game as it is one endless game without any lev
 
 ### Non-Functional Requirements
 
-####
+#### Usability Requirements
 
+The user interface should be simple and intuitive, allowing players to immediately understand the game's mechanics. A brief, in-game tutorial or on-screen prompts should explain how to control the bird (e.g. clicking to keep it in the air) for first-time users. The UI should include clear visual feedback when the bird collides with an obstacle or the ground, as well as a restart button to make the game easily understandable.
 
+#### Compatibility Requirements
 
-####
+The game must be compatible for PC and Mac users. It should utilise mouse and keyboard controls and the game should be designed to run smoothly on different screen sizes, adapting the resolution and layout to maintain a consistent experience across screen types.
 
+#### Reliability and Availability Requirements
 
-
-####
-
+The game should be reliable, being up at least 99% of the time, ensuring it is available for users at almost all times (1% for minor bug fixes, game changes etc.). Since the game is offline, it should not rely on any network services. The game should include error handling mechanisms to prevent crashes, especially when the bird collides with obstacles or when restarting the game.
