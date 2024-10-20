@@ -22,17 +22,17 @@ The need for my game lies in the demand for accessible yet engaging 2D platforme
 
 #### Problem Statement
 
-Many existing platformer games either offer challenges that are too simple, losing the interest of experienced players, or are too difficult from the start, causing casual gamers to lose interest quickly. My game aims to address this by balancing difficulty, offering an evolving learning curve that starts off easy but gradually introduces more complex challenges. This allows players to improve their skills progressively while keeping the gameplay engaging.
+Many existing platformer games either offer challenges that are too simple, losing tzhe interest of experienced players, or are too difficult from the start, causing casual gamers to lose interest quickly. My game aims to address this by balancing difficulty, offering an evolving learning curve that starts off easy but gradually introduces more complex challenges. This allows players to improve their skills progressively while keeping the gameplay engaging.
 
 #### Evidence of Development Skills
 
-For my 2D Platformer game I will be using Unity, which is well-suited for creating games and has a vast array of learning resources. I will be using C# scripting to handle character movement, collision detection, and physics-based interactions. These video tutorials will be on YouTube and will explain each process of the game. I will be applying game development concepts, like balancing difficulty and player progression, through thorough testing and feedback. I will be either leveraging Unity’s asset store or creating custom pixel art on Piskel for the game’s visuals, ensuring a consistent and engaging aesthetic which matches the game's theme.
+For my 2D Platformer game I will be using Unity, which is well-suited for creating games and has a vast array of learning resources. I will be using C# scripting to handle character movement, collision detection, and physics-based interactions. I am following this [Flappy Bird YouTube Tutorial](https://youtu.be/ihvBiJ1oC9U) to aid me in mkaing my game. I will be applying game development concepts, like balancing difficulty and player progression, through thorough testing and feedback. I will be either leveraging Unity’s asset store or creating custom pixel art on Piskel for the game’s visuals, ensuring a consistent and engaging aesthetic which matches the game's theme.
 
 ### Requirements Outline
 
 #### Inputs
 
-User inputs for my 2D Platformer game will include the arrow keys for the character to jump  as well as using the space bars as an alternative to the jump button.
+User inputs for my 2D Platformer game will include the arrow keys for the character to jump as well as using the space bars and mouse clicks as an alternative to the jump button.
 
 #### Processing
 
@@ -40,10 +40,16 @@ The processes within my game is to detect when the character has touched an obst
 
 #### Outputs
 
-
+The bird's updated position will be shown on screen when the user starts the game. The screen will update with the current score whenever the bird successfully passes between obstacles. A "game over" message will appear when the player loses as well as sound effects for flapping, passing through pipes, and collisions.
 
 #### Transmission
 
-
+This Flappy Bird game will not require any data transmission as this game is completely offline. However, if I were to add online leaderboards, score data would be transmitted to an online server.
 
 #### Storage
+
+High scores will be stored locally on the user’s device and will be shown. The game would store user settings like sound preferences such as a bar to adjust the volume.
+
+### Functional Requirements
+
+#### User Interaction
