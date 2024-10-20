@@ -36,11 +36,11 @@ User inputs for my 2D Platformer game will include the arrow keys for the charac
 
 #### Processing
 
-The processes within my game is to detect when the character has touched an obstacle which is placed on the scene or if the character has toouched the floor or the ceiling. Another process will be adding to the user's score whenever the character has passed an obstacle. The camera follow process will position the character at a certain point on the screen to ensure that the character has fluid movement.
+The processes within my game is to detect when the character has touched an obstacle which is placed on the scene or if the character has toouched the floor. Another process will be adding to the user's score whenever the character has passed an obstacle. The camera follow process will position the character at a certain point on the screen to ensure that the character has fluid movement.
 
 #### Outputs
 
-The bird's updated position will be shown on screen when the user starts the game. The screen will update with the current score whenever the bird successfully passes between obstacles. A "game over" message will appear when the player loses as well as sound effects for flapping, passing through pipes, and collisions.
+The bird's updated position will be shown on screen when the user starts the game. The screen will update with the current score whenever the bird successfully passes between obstacles. A "game over" message will appear when the player loses as well as sound effects for flapping, passing through obstacles, and collisions.
 
 #### Transmission
 
@@ -53,3 +53,43 @@ High scores will be stored locally on the user’s device and will be shown. The
 ### Functional Requirements
 
 #### User Interaction
+
+**Input Method:** The user will interact using mouse clicks/spacebar presses (if using a keyboard).
+
+**User Actions:** The user action is tapping or pressing the spacebar to make the bird "flap" and rise upwards. No other user inputs are required.
+
+**Response to Input:** When the player clicks or presses the spacebar, the bird’s travels vertically. The physics within the game then pulls it back down naturally, so the player must keep clicking to avoid obstacles.
+
+#### Core Gameplay or Simulation Mechanics
+
+**Flapping**: The bird ascends when the player provides an input (mouseclick or space) and descends when no input is given.
+
+**Obstacles**: Obstacles appear with an even space between them (I am planning on making these obstacles pipes using Piskel), and the player must navigate the bird through the gaps. Colliding with obstacles or falling on the ground results in game over.
+
+**Scoring**: The player earns points by passing successfully through the gap between obstacles. If the player is defeated on the obstacle the point will not be rewarded as they have to fully pass the obstacle.
+
+#### Scoring and Feedback
+
+**Scoring**: A point is added every time the character successfully passes through the pipes. The current score will be displayed at the top of the screen.
+**Feedback**: When the player hits a pipe or the ground, the game provides immediate feedback with a "game over" screen. The player can then restart the game with their score being saved if it is the highest they have scored.
+
+#### Level Progression or Simulation Stages
+
+This section is not needed for my game as it is one endless game without any levels with the goal being the user having to get the highest score. The speed of my character will also not change depending on the character's score as seen in other games.
+
+#### Saving and Loading Data
+
+**Saving Data**: The game will save the player's high score localy, allowing the player to track their best score.
+
+### Non-Functional Requirements
+
+####
+
+
+
+####
+
+
+
+####
+
