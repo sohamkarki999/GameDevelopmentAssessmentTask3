@@ -54,11 +54,11 @@ High scores will be stored locally on the user’s device and will be shown. The
 
 #### User Interaction
 
-**Input Method:** The user will interact using mouse clicks/spacebar presses (if using a keyboard).
+**Input Method**: The user will interact using mouse clicks/spacebar presses (if using a keyboard).
 
-**User Actions:** The user action is tapping or pressing the spacebar to make the bird "flap" and rise upwards. No other user inputs are required.
+**User Actions**: The user action is tapping or pressing the spacebar to make the bird "flap" and rise upwards. No other user inputs are required.
 
-**Response to Input:** When the player clicks or presses the spacebar, the bird’s travels vertically. The physics within the game then pulls it back down naturally, so the player must keep clicking to avoid obstacles.
+**Response to Input**: When the player clicks or presses the spacebar, the bird’s travels vertically. The physics within the game then pulls it back down naturally, so the player must keep clicking to avoid obstacles.
 
 #### Core Gameplay or Simulation Mechanics
 
@@ -80,7 +80,7 @@ This section is not needed for my game as it is one endless game without any lev
 
 #### Saving and Loading Data
 
-**Saving Data**: The game will save the player's high score localy, allowing the player to track their best score.
+The game will save the player's high score localy, allowing the player to track their best score.
 
 ### Non-Functional Requirements
 
@@ -95,3 +95,31 @@ The game must be compatible for PC and Mac users. It should utilise mouse and ke
 #### Reliability and Availability Requirements
 
 The game should be reliable, being up at least 99% of the time, ensuring it is available for users at almost all times (1% for minor bug fixes, game changes etc.). Since the game is offline, it should not rely on any network services. The game should include error handling mechanisms to prevent crashes, especially when the bird collides with obstacles or when restarting the game.
+
+### Consideration of Social and Ethical Issues
+
+#### Definitions
+
+**Equity**: Equity refers to the fair treatment of all players by ensuring that everyone has equal access to gameplay opportunities, resources, and support.
+
+**Accessibility**: Accessibility means designing the game to be usable by all individuals of all abilities. This includes implementing features that allow players to customise their experience, such as alternative controls, visual adjustments, and audio support, ensuring that everyone can enjoy and engage with the game effectively.
+
+#### Accessibility
+
+My game will be usable by all individuals and to enhance accessibility, I will integrate features such as customisable controls, which allow players to adapt gameplay mechanics to their needs, whether through keyboard or mouse. Additionally, incorporating visual adjustments, such as color contrast settings and the option for larger text, can help accommodate players with visual impairments. Subtitles for instructions can also help players who are deaf.
+
+#### Privacy and Data Protection
+
+It is vital to ensure that information such as the user's high score is stored securely and only with the consent of them. I will have to implement clear privacy policies that inform players about what data is collected, how it will be used, and how it will be protected, whcih will be accessable through a link on the splash screen. Using encryption for stored data can help build trust and ensure that my game will comply with data protection regulations. Safeguarding personal information such as their name for their high score is essential to maintain the integrity of my game and protect user privacy.
+
+#### Fairness and Representation
+
+To promote fairness and representation in my game, I will ensure that the character and game overall will reflect a diverse range of backgrounds and experiences. I will aim to create a relatable and multifaceted character that resonate with a broad audience without any harmful sterotypes related to gender, race or culture.
+
+#### Mental and Emotional Well-Being
+
+I need to consider the potential impact of my game on user's mental health. I will avoid including distressing content, such as excessive violence or flashing bright colours that could trigger anxiety or negative emotions. Instead, I plan to design the game to promote a positive and enjoyable experience, using harmless visuals made in Piskel and encouraging gameplay mechanics. Incorporating elements of reward will enhance player satisfaction as they pass through obstacles and gain a higher score which contributes to a sense of well-being.
+
+#### Cultural Sensitivities
+
+I will be mindful of cultural sensitivities in my game’s content. I understand that symbols, themes, or narratives that may be appropriate in one culture can be offensive or misunderstood in another. I will conduct thorough research to understand the cultural implications of the elements I include in my game, ensuring they are respectful and inclusive. This approach will help prevent unintentional harm and backlahs on my game and foster positive feedback from a diverse player base.
