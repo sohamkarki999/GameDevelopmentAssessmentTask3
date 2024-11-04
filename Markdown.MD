@@ -162,7 +162,9 @@ I will be mindful of cultural sensitivities in my game’s content. I understand
 
 <img src="storyboards/storyboard3.png" alt="Storyboard 3" width="400">
 
-<img src="storyboards/storyboard4.png" alt="Storyboard 4" width="400">
+<img src="storyboards/storyboard5.png" alt="Storyboard 4" width="400">
+
+<img src="storyboards/storyboard4.png" alt="Storyboard 5" width="400">
 
 ### Gantt Chart
 
