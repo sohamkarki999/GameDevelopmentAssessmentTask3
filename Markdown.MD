@@ -140,32 +140,32 @@ I will be mindful of cultural sensitivities in my game’s content. I understand
 
 <img src="flowcharts/movementflowchart.png" alt="Movement Flowchart" width="400">
 
-<img src="pseudocodes/movement.png" alt="Movement Pseudocode" width="400">
+<img src="pseudocodes/movement.png" alt="Movement Pseudocode" width="600">
 
 ### Scoring Flowchart and Pseudocode
 
 <img src="flowcharts/scoringflowchart.png" alt="Scoring Flowchart" width="600">
 
-<img src="pseudocodes/scoring.png" alt="Scoring Pseudocode" width="400">
+<img src="pseudocodes/scoring.png" alt="Scoring Pseudocode" width="600">
 
 ### Data Saving and Loading FLowchart and Pseudocode
 
 <img src="flowcharts/dataflowchart.png" alt="Data Saving and Loading Flowchart" width="500">
 
-<img src="pseudocodes/data.png" alt="Data Saving and Loading Pseudocode" width="400">
+<img src="pseudocodes/data.png" alt="Data Saving and Loading Pseudocode" width="600">
 
 ### Storyboards
 
-<img src="storyboards/storyboard1.png" alt="Storyboard 1" width="400">
+<img src="storyboards/storyboard1.png" alt="Storyboard 1" width="800">
 
-<img src="storyboards/storyboard2.png" alt="Storyboard 2" width="400">
+<img src="storyboards/storyboard2.png" alt="Storyboard 2" width="800">
 
-<img src="storyboards/storyboard3.png" alt="Storyboard 3" width="400">
+<img src="storyboards/storyboard3.png" alt="Storyboard 3" width="800">
 
-<img src="storyboards/storyboard5.png" alt="Storyboard 4" width="400">
+<img src="storyboards/storyboard5.png" alt="Storyboard 4" width="800">
 
-<img src="storyboards/storyboard4.png" alt="Storyboard 5" width="400">
+<img src="storyboards/storyboard4.png" alt="Storyboard 5" width="800">
 
 ### Gantt Chart
 
-<img src="ganttchart/ganttchart.png" alt="Gantt Chart" width="400">
+<img src="ganttchart/ganttchart.png" alt="Gantt Chart" width="1200">
